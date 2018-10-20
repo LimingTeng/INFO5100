@@ -1,3 +1,4 @@
+class Solution {
     public List<Integer> spiralOrder(int[][] matrix) {
     List<Integer> res = new ArrayList<>();
         if (matrix == null || matrix.length == 0 || matrix[0] == null || matrix[0].length == 0) {
@@ -42,3 +43,4 @@
         }
         return res;
     }
+}
